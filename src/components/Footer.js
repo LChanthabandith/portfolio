@@ -5,11 +5,12 @@ class Footer extends Component {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         if (network.name === 'linkedin') {
-          network.name = 'linkedin';
           network.url = 'https://www.linkedin.com/in/laviengchanthabandith/';
+          network.class = 'fab fa-linkedin';
         }
         if (network.name === 'github') {
           network.url = 'https://github.com/LChanthabandith';
+          network.class = 'fab fa-github';
         }
         
         return (
