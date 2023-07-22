@@ -7,12 +7,12 @@ import vueIcon from "@iconify/icons-logos/vue";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = "images/129714958.jpg" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
+      var hello = "Hello there! I'm Lavieng Chanthabandith,";
+      var about = "A passionate Full-Stack Software Engineer with experience in developing scalable and efficient software solutions. Skilled in JavaScript, React, HTML, and CSS, I love problem-solving, learning new technologies, and bringing ideas to life through code. Let's build something amazing together!";
     }
 
     return (

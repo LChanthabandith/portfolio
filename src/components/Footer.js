@@ -4,6 +4,14 @@ class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
+        if (network.name === 'linkedin') {
+          network.name = 'linkedin';
+          network.url = 'https://www.linkedin.com/in/laviengchanthabandith/';
+        }
+        if (network.name === 'github') {
+          network.url = 'https://github.com/LChanthabandith';
+        }
+        
         return (
           <span key={network.name} className="m-4">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
