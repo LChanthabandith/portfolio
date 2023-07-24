@@ -2,6 +2,105 @@ body[data-theme="light"] {
     @import '/src/scss/light-slider.scss';
  
     .slider-tab {
-       background-color: #D7CAAA;
+       background-color: #E8F0FE;
+    }
+
+    .title-styles {
+       color: #202124;
+    }
+
+    .header-icon {
+       color: #5F6368;
+    }
+
+    .slider-image {
+       border: 5px solid #E8F0FE;
+    }
+
+    .language {
+       background-color: #F1F3F4;
+    }
+
+    .link-href {
+       color: #1A73E8;
+    }
+
+    .project-date {
+       background-color: #E8F0FE;
+       color: #202124;
+    }
+
+    header {
+       background-color: #F1F3F4;
+       h1 {
+          color: #202124;
+       }
+    }
+
+    #about {
+       background-color: #F1F3F4;
+       h1 span {
+          color: #1A73E8;
+       }
+       .polaroid span {
+          background: #E8F0FE;
+       }
+       .card {
+          background: #FFFFFF;
+          color: #202124;
+       }
+    }
+
+    #portfolio {
+        background-image: url('public/images/129714958.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+           color: #1A73E8 !important;
+        }
+        .foto div {
+           background: #E8F0FE;
+        }
+        .project-title-settings {
+           color: #202124;
+        }
+     }
+
+    #resume {
+       filter: brightness(100%);
+       background: #FFFFFF;
+       .section-title {
+          color: #1A73E8 !important;
+       }
+
+       .experience-badge {
+          background: #E8F0FE !important;
+          color: #202124;
+       }
+
+       .main-badge {
+          background: #E8F0FE !important;
+       }
+
+       .vertical-timeline-element-date {
+          color: #202124;
+       }
+
+       .vertical-timeline-element-icon {
+          background: #E8F0FE !important;
+       }
+       @media only screen and (max-width: 1169px) { 
+          .vertical-timeline-element-date {
+             color: #5F6368;
+          }
+       }
+    }
+
+    .modal-inside .modal-content {
+       background: #FFFFFF;
+       color: #202124;
+    }
+
+    .close-icon {
+       color: #5F6368;
     }
 }
