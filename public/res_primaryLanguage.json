@@ -15,8 +15,8 @@
         "startDate": "2023",
         "description": "I created the T.M.I. app because I recognized a need for a more streamlined, efficient way to manage tasks. In both personal and professional life, people often struggle to organize their to-do lists and prioritize their responsibilities effectively. This struggle can lead to stress, missed deadlines, and a decrease in productivity.",
         "images": [
-          "public/images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png",
-          "public/images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png"
+          "images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png",
+          "images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png"
         ],
         "url": "https://lchanthabandith.github.io/t.m.i./",
         "technologies": [
