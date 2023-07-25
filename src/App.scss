@@ -7,6 +7,8 @@ html {
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+	background-color: #021b37;
+    color: #dcdcdc;
 }
 
 .aligner {
@@ -22,6 +24,7 @@ html {
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
+	color: #dcdcdc; 
 }
 
 .header-icon {
@@ -38,7 +41,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #12396b;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,6 +54,7 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	color: #dcdcdc;
 }
 
 .github-corner:hover .octo-arm {
@@ -95,7 +99,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #dcdcdc;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -129,7 +133,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #dcdcdc;
 	text-align: center;
 }
 
@@ -414,24 +418,24 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #021b37;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: #dcdcdc;;
 	position: relative;
 	text-align: center;
 }
 
 footer a,
 footer a:visited {
-	color: #fff;
+	color: #dcdcdc;
 }
 
 footer a:hover,
 footer a:focus {
-	color: #fff;
+	color: #ffffff;
 }
 
 .social-links {
