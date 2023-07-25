@@ -1,3 +1,3 @@
 # Modify this portfolio
 
-Make it your own! 
+[Deployed Site](https://lavieng-portfolio.netlify.app)

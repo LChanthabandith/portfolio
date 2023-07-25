@@ -12,9 +12,14 @@ class Header extends Component {
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.checked !== prevState.checked) {
+      this.setTheme();
+    }
+  }
+
   onThemeSwitchChange(checked) {
     this.setState({ checked });
-    this.setTheme();
   }
 
   setTheme() {
