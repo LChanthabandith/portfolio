@@ -7,11 +7,11 @@ body[data-theme="dark"] {
    }
 
    .title-styles {
-      color: #ffffff;
+      color: #D1D5DB;
    }
 
    .header-icon {
-      color: #374151;
+      color: #93C5FD;
       opacity: 0.8;
    }
 
@@ -24,32 +24,32 @@ body[data-theme="dark"] {
    }
 
    .link-href {
-      color: #ffffff;
+      color: #93C5FD;
    }
 
    .project-date {
       background-color: #4b5563;
-      color: #ffffff;
+      color: #D1D5DB;
    }
 
    header {
       background-color: #1f2937;
       h1 {
-         color: white;
+         color: #D1D5DB;
       }
    }
 
    #about {
       background-color: #4b5563;
       h1 span {
-         color: white;
+         color: #D1D5DB;
       }
       .polaroid span {
          background:  #4b5563;
       }
       .card {
          background: #4b5563;
-         color: white;
+         color: #D1D5DB;
       }
    }
 
@@ -58,13 +58,13 @@ body[data-theme="dark"] {
       background-repeat: no-repeat;
       color: #1A73E8 !important;
       .section-title {
-         color: white !important;
+         color: #D1D5DB !important;
       }
       .foto div {
          background: #E8F0FE;
       }
       .project-title-settings {
-         color: #202124;
+         color: #D1D5DB;
       }
    }
 
@@ -72,12 +72,12 @@ body[data-theme="dark"] {
       filter: brightness(80%);
       background: #374151;
       .section-title {
-         color: white !important;
+         color: #D1D5DB !important;
       }
 
       .experience-badge {
          background: #4b5563 !important;
-         color: white;
+         color: #D1D5DB;
       }
 
       .main-badge {
@@ -85,7 +85,7 @@ body[data-theme="dark"] {
       }
 
       .vertical-timeline-element-date {
-         color: white;
+         color: #D1D5DB;
       }
 
       .vertical-timeline-element-icon {
@@ -100,10 +100,10 @@ body[data-theme="dark"] {
 
    .modal-inside .modal-content {
       background: #374151;
-      color: white;
+      color: #D1D5DB;
    }
 
    .close-icon {
-      color: white;
+      color: #D1D5DB;
    }
 }
