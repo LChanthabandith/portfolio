@@ -15,10 +15,34 @@
         "startDate": "2023",
         "description": "I created the T.M.I. app because I recognized a need for a more streamlined, efficient way to manage tasks. In both personal and professional life, people often struggle to organize their to-do lists and prioritize their responsibilities effectively. This struggle can lead to stress, missed deadlines, and a decrease in productivity.",
         "images": [
-          "public/images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png",
-          "public/images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png"
+          "images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png",
+          "images/portfolio/animal-shelter/Screenshot 2023-07-24 042529.png"
         ],
         "url": "https://lchanthabandith.github.io/t.m.i./",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Odd Duck",
+        "startDate": "2023",
+        "description": "I created the Odd Duck app to allow a web-based, randomized voting sytem to track the input of user's favorite products with a visual graph.",
+        "images": [
+          "images/portfolio/animal-shelter/Screenshot 2023-09-07 033512.png",
+          "images/portfolio/animal-shelter/Screenshot 2023-09-07 033512.png"
+        ],
+        "url": "https://lchanthabandith.github.io/odd-duck/",
         "technologies": [
           {
             "class": "devicon-html5-plain",
